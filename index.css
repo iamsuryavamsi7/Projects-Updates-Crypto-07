@@ -491,8 +491,8 @@
     .development{
         width: 100%;
         font-size: 15px;
-        left: 60px;
-        
+        right: 0px;
+
     }
 
 }
