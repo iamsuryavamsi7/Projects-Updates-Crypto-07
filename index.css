@@ -481,7 +481,6 @@
 
     .bug_report{
         width: 60%;
-        
     }
 
     .filter_01{
@@ -493,7 +492,10 @@
     }
     
     .development{
-        position: block;
+        position: initial;
+        background-color: red;
+        border-radius: 0px;
+        color: white;
     }
 
 }
