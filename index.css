@@ -436,7 +436,9 @@
             }
         
             .bug_report{
-                width: 60%;
+                width: 100%;
+                margin-left: 10px;
+                font-size: 18px;
             }
         
             .filter_01{
@@ -478,6 +480,7 @@
 
     .bug_report{
         width: 60%;
+        
     }
 
     .filter_01{
