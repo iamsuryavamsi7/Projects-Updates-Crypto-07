@@ -458,6 +458,10 @@
 
 @media (max-width: 500px){
 
+    .inactive a, .inactive2 a, .active{
+        font-size: 20px;
+    }
+
     .header{
         width: 100%;
     }
