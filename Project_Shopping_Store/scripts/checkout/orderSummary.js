@@ -188,7 +188,7 @@ export function renderOrderSummary(){
             );
             
             container.classList.add('is-editing-quantity');
-        
+
         });
     
     });
