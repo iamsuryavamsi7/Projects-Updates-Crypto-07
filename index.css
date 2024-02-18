@@ -490,9 +490,9 @@
     
     .development{
         width: 100%;
-        bottom: 10px;
-        font-size: 18px;
-        left: 10px;
+        font-size: 15px;
+        left: 60px;
+        
     }
 
 }
