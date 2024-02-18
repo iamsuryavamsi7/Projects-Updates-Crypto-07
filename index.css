@@ -427,3 +427,30 @@
             }
 
         }
+
+@media (max-width: 500px){
+
+    .header{
+        width: 100%;
+    }
+
+    .bug_report{
+        width: 60%;
+    }
+
+    .filter_01{
+        display: none;
+    }
+
+    .filter_02{
+        display: none;
+    }
+    
+    .development{
+        width: 100%;
+        bottom: 10px;
+        font-size: 18px;
+        left: 10px;
+    }
+
+}
