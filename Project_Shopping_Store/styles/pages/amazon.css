@@ -178,6 +178,10 @@ body{
 
 @media (max-width: 600px) {
 
+  .header-link:hover{
+    border: none;
+  }
+
 	.div1{
 		width: 35px;
 		height: 3px;
@@ -219,6 +223,12 @@ body{
 	.orders-link{
 		margin-bottom: 10px;
     display: none;
+  }
+
+  .orders-link:hover, .cart-link:hover{
+    border: none;
+
+
   }
 
 	.cart-link {

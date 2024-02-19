@@ -111,3 +111,21 @@
     width: auto;
   }
 }
+
+@media (max-width: 600px) {
+
+	.checkout-header-middle-section{
+		display: block;
+	}
+
+	.checkout-header-right-section{
+		display: none;
+	}
+
+	.shopping-store{
+		font-size: 20px;
+		margin-left: 0;
+		padding-left: 0;
+	}
+
+}
