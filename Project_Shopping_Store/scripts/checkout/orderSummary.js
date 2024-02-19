@@ -229,6 +229,8 @@ export function renderOrderSummary(){
 
             updateCartQuantity();
 
+            renderPaymentSummary();
+
         });
     });
 

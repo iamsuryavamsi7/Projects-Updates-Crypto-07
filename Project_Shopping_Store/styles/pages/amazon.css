@@ -37,6 +37,7 @@ body{
 
 @media (max-width: 1000px) {
   .products-grid {
+	grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -56,6 +57,10 @@ body{
   .products-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.amazon-header-right-section{
+  transition: all ease 1s;
 }
 
 .product-container {
@@ -159,3 +164,102 @@ body{
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.right-header{
+  cursor: pointer;
+}
+
+.div1{
+	width: 35px;
+	height: 3px;
+	background-color: black;
+	margin-top: 7px;
+	display: none;
+}
+
+@media (max-width: 600px) {
+
+	.div1{
+		width: 35px;
+		height: 3px;
+		background-color: black;
+		margin-top: 7px;
+		display: block;
+		margin-left: 40px;
+		margin-right: 20px;
+	}
+
+	.amazon-header{
+		align-items: center;
+	}
+
+	.style-header-link{
+		width: 100px;
+		font-size: 23px;
+	}
+
+	.products-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.amazon-header-right-section{
+		display: block;
+		position: absolute;
+		background-color: rgb(9, 144, 198);
+		right: 10px;
+		top:100px;
+		height: 0px;
+		width: 100px;
+		padding-left: 20px;
+		padding-top: 0px;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+    margin-right: 20px;
+	}
+
+	.orders-link{
+		margin-bottom: 10px;
+    display: none;
+  }
+
+	.cart-link {
+		position: relative;
+		right: 10px;
+    display: none;
+    left: 0px;
+	}
+
+  .cart-text{
+    display: none;
+    position: relative;
+    bottom: 15px;
+    left: 13px;
+  }
+
+  .search-bar{
+    height: 32px;
+  }
+  
+  .is-header-active .amazon-header-right-section{
+    height: 135px;
+	}
+
+  .is-header-active .orders-link, .is-header-active .cart-link, .is-header-active .cart-text{
+    display: block;
+    animation: nav_Bar 1s linear;
+  }
+
+} 	
+
+@keyframes nav_Bar {
+
+  0%{
+    
+    transform: translateX(1000px);
+
+  }100%{
+    
+    transform: translateX(0px);
+
+  }
+  
+}

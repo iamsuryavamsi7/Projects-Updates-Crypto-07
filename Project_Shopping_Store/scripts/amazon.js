@@ -129,3 +129,22 @@ document.querySelectorAll(".js-add-to-cart")
         });
 
     });
+
+const header = document.querySelector(".amazon-header");
+const hamBurger = document.querySelector(".right-header");
+
+hamBurger.addEventListener("click", () => {
+
+    if (!header.classList.contains("is-header-active")){
+
+        header.classList.add("is-header-active");
+
+    } else {
+
+        header.classList.remove("is-header-active");
+
+    }
+
+})
+
+
