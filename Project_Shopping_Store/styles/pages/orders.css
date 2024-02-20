@@ -241,7 +241,13 @@
 		width: 100px;
 		font-size: 23px;
 		margin-right: 0px;
+    position: relative;
+    top: 1px;
 	}
+  
+  .mmedia-600px-header-link:hover{
+    border: none;
+  }
 
 	.media-600px-header-link:hover{
 		border: none;
@@ -272,6 +278,8 @@
 	.div1{
 		margin-right: 10px;
 		margin-left: 20px;
+    position: relative;
+    bottom: 5px;
 	} 
 
 	.returns-text, .orders-text, .cart-link{
@@ -283,6 +291,10 @@
 		position: relative;
 		left: 13px;
 	}
+
+  .cart-link:hover{
+    border: none;
+  }
 
 	.cart-text{
 		position: relative;
