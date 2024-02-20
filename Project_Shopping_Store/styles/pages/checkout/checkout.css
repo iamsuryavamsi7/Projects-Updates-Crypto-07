@@ -15,7 +15,7 @@
 }
 
 .page-title {
-  font-weight: 700;
+  font-weight: 700; 
   font-size: 22px;
   margin-bottom: 18px;
 }
@@ -249,4 +249,12 @@
 
 .js-return-to-home-link{
   color: rgb(255, 255, 255);
+}
+
+@media (max-width: 600px) {
+
+  .checkout-header-middle-section:hover{
+    border: none;
+  }
+
 }
