@@ -233,6 +233,10 @@
 
 @media (max-width: 600px) {
 
+  .search-bar{
+    height: 32px;
+  }
+
 	.mmedia-600px-header-link{
 		width: 100px;
 		font-size: 23px;
@@ -268,7 +272,7 @@
 	.div1{
 		margin-right: 10px;
 		margin-left: 20px;
-	}
+	} 
 
 	.returns-text, .orders-text, .cart-link{
 		display: none;
