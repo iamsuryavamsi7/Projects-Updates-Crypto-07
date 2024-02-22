@@ -364,7 +364,7 @@ iframe{
 
 /* View Port Style */
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 1100px) {
 
     .container{
         grid-template-columns: 1fr 1fr;
@@ -501,6 +501,13 @@ iframe{
     .hamburger{
         position: absolute;
         right: 0;
+        bottom: 60px;
+    }
+
+    .close{
+        position: absolute;
+        right: 0;
+        bottom: 40px;
     }
 
     .projects{
