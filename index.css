@@ -37,6 +37,16 @@ body{
     border-bottom-right-radius: 50px;
 }
 
+.right-header{
+    display: none;
+}
+
+.close{
+    display: none;
+    font-size: 40px;
+    margin-right: 30px;
+}
+
 .hamburger{
     display: none;
     cursor: pointer;
@@ -395,6 +405,10 @@ iframe{
         transform: translateX(1000px);
     }
 
+    .right-header{
+        display: block;
+    }
+
     .hamburger{
         display: block;
     }
@@ -405,6 +419,14 @@ iframe{
 
     .isActive ul li{
         transform: translateX(0px);
+    }
+
+    .isActive .hamburger{
+        display: none;
+    }
+
+    .isActive .close{
+        display: block;
     }
     
 }

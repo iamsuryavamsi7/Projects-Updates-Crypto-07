@@ -1,16 +1,11 @@
 const hamburger = document.querySelector(`.hamburger`)
+const header = document.querySelector(`.header`)
 
 const hamburgerFunction = () => {
 
-    const navBar = document.querySelector(`.nav_bar`)
+    if (!header.classList.contains(`isActive`)){
 
-    if (!navBar.classList.contains(`isActive`)){
-
-        navBar.classList.add("isActive");
-
-    } else {
-
-        navBar.classList.remove("isActive");
+        header.classList.add("isActive");
 
     }
 
@@ -18,6 +13,25 @@ const hamburgerFunction = () => {
 
 hamburger.addEventListener("click", () => {
     hamburgerFunction();
+})
+
+const closeI = document.querySelector(".js-close-i");
+
+const closeIFunction = () => {
+
+    if (header.classList.contains("isActive")) {
+
+        header.classList.remove("isActive");
+
+    }
+
+
+}
+
+closeI.addEventListener("click", () => {
+
+    closeIFunction();
+
 })
 
 function filterButton(argu01){
