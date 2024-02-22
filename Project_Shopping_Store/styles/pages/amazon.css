@@ -176,7 +176,7 @@ body{
 	display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 
   .header-link:hover{
     border: none;
@@ -235,7 +235,7 @@ body{
 		position: relative;
 		right: 10px;
     display: none;
-    left: 0px;
+    left: 0px; 
 	}
 
   .cart-text{
@@ -272,4 +272,12 @@ body{
 
   }
   
+}
+
+@media (max-width: 413px){
+
+  .search-bar{
+    height: 38px;
+  }
+
 }
