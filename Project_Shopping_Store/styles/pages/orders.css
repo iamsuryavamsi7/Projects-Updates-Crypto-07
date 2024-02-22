@@ -350,3 +350,11 @@
 
 }
 
+@media only screen and (orientation: landscape) and (min-width: 300px){
+
+  .search-bar, .search-icon{
+    height: 32px;
+  }
+
+}
+
