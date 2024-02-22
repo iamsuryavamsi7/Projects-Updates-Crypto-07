@@ -281,3 +281,11 @@ body{
   }
 
 }
+
+@media (width: 375px){
+
+  .search-bar{
+    height: 38px;
+  }
+
+}
