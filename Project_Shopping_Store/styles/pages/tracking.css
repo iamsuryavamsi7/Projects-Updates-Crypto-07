@@ -105,7 +105,7 @@
 
 }
 
-@media only screen and (orientation: landscape) and (min-width: 300px){
+@media only screen and (orientation: landscape) and (max-width: 1000px){
 
   .search-bar{
     height: 32px;
