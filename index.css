@@ -451,10 +451,11 @@
             }
             
             .development{
-                width: 100%;
+                width: 320px;
                 bottom: 10px;
                 font-size: 18px;
                 left: 10px;
+                margin-left: 20px;
             }
 
         }
@@ -500,6 +501,8 @@
 
     iframe{
         height: 300px;
+        width: 320px;
+        margin: 0px 20px;
     }
 
 }
