@@ -274,7 +274,7 @@ body{
   
 }
 
-@media only screen and (max-width: 413px){
+@media only screen and (orientation: portrait) and (max-width: 413px){
 
   .search-bar{
     height: 38px;
@@ -282,10 +282,18 @@ body{
 
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (orientation: portrait) and (max-width: 400px){
 
   .search-bar{
     height: 32px;
+  }
+
+}
+
+@media only screen and (orientation: landscape) and (max-width: 1000px){
+
+  .header-link{
+    font-size: 21px;
   }
 
 }
