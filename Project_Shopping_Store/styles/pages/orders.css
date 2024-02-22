@@ -341,3 +341,11 @@
 
 }
 
+@media only screen and (orientation: landscape) and (max-width: 1000px){
+
+  .header-link{
+    font-size: 21px;
+  }
+
+}
+
