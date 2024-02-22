@@ -79,3 +79,19 @@
   border-radius: 50px;
   width: 50%;
 }
+
+@media only screen and (max-width: 413px){
+
+  .search-bar{
+    height: 38px;
+  }
+
+}
+
+@media only screen and (max-width: 400px){
+
+  .search-bar{
+    height: 32px;
+  }
+
+}
