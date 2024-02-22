@@ -499,3 +499,11 @@
     }
 
 }
+
+@media only screen and (max-width: 800px){
+
+    .div1{
+        margin: 0px 30px;
+    }
+
+}
