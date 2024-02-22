@@ -282,10 +282,10 @@ body{
 
 }
 
-@media (width: 375px){
+@media (width = 375px){
 
   .search-bar{
-    height: 38px;
+    height: 32px;
   }
 
 }
