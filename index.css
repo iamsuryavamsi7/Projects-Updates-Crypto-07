@@ -426,11 +426,12 @@ iframe{
 
     .div1_02{
         display: block;
-        margin-bottom: 30px;
+        margin-bottom: 6px;
     }
 
     .hypertextlinks{
         margin-left: 0px;
+        margin-bottom: 0px;
     }
 
     .header{
