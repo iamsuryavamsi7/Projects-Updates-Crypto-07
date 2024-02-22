@@ -274,7 +274,7 @@ body{
   
 }
 
-@media (max-width: 413px){
+@media only screen and (max-width: 413px){
 
   .search-bar{
     height: 38px;
@@ -282,7 +282,7 @@ body{
 
 }
 
-@media (width = 375px){
+@media only screen and (max-width: 375px){
 
   .search-bar{
     height: 30px;
