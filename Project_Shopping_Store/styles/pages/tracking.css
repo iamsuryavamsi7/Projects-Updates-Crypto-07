@@ -105,9 +105,17 @@
 
 }
 
-@media only screen and (orientation: portrait) and (orientation: landscape) and (min-width: 300px){
+@media only screen and (orientation: landscape) and (min-width: 300px){
 
-  .search-bar, .search-icon{
+  .search-bar{
+    height: 32px;
+  }
+
+}
+
+@media only screen and (orientation: portrait) and (max-width: 600px){
+
+  .search-bar{
     height: 32px;
   }
 
