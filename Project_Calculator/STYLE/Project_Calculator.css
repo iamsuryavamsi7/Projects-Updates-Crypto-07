@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0; 
     box-sizing: 0;
 }
 
@@ -42,4 +42,28 @@ button{
 
 .slash{
     padding: 20px 32px;
+}
+
+@media only screen and (max-width: 600px) {
+
+	#dot{
+    		padding: 20px 33px;
+	}
+
+	button{
+	    margin: 20px 10px 0px 0px;
+	    font-size: 30px;
+	    padding: 19px 27px;
+	    color: white;
+	    background-color: rgb(51, 51, 51);
+	    border: none;
+	    border-radius: 50%;   
+	}
+
+	#operators{
+	    background-color: orange;
+	    padding: 19px 27px;
+
+	}
+
 }
