@@ -9,11 +9,22 @@ body{
     background-color: black;
 }
 
+.projects-list-a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 .class1{
     font-size: 25px;
     color: white;
     background-color: black;
     height: 50px;
+    margin-top: 30px;
 }
 
 button{
