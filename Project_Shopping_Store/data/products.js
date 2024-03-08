@@ -675,5 +675,4 @@ export const products = [
       "mens"
     ]
   },
- 
 ];
